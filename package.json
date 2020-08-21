@@ -1,0 +1,45 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "Testes automatizados com Cypress, BDD, Page Objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open",
+    "test:open:cucumber": "npx cypress open --config-file cypress-cucumber.json",
+    "test:run:cucumber": "npx cypress run --config-file cypress-cucumber.json --spec **/All.features ",
+    "report:clean": "rm -rf mochawesome-report full_report.json cypress/reports/cucumber-json/**",
+    "report:cucumber": "node cypress/reports/reporter.js"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "keywords": [
+    "cypress",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Alexandre Nunes",
+  "license": "ISC",
+  "devDependencies": {
+    "chance": "^1.1.6",
+    "cucumber-html-reporter": "^5.2.0",
+    "cypress": "^4.12.1",
+    "cypress-cucumber-preprocessor": "^2.3.1",
+    "cypress-file-upload": "^4.0.7",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.1.1",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.1.0",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "D": "^1.0.0"
+  }
+}

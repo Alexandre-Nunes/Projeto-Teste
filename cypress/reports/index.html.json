@@ -1,0 +1,175 @@
+[
+  {
+    "description": "    Como usuário do site, desejo realizar um Cadastro\n    Para que possa acessar o sistema.",
+    "keyword": "Feature",
+    "name": "Cadastro de Usuário",
+    "line": 1,
+    "id": "cadastro-de-usuário",
+    "tags": [],
+    "uri": "cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro-de-usuário;cadastro-de-novo-usuário-com-sucesso",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cadastro de novo usuário com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que o usuário esteja na pagina de Register",
+            "result": {
+              "status": "passed",
+              "duration": 10357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "informo os dados do usuario",
+            "result": {
+              "status": "passed",
+              "duration": 4942000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "submeto o cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "o usuario e cadastrado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 11466000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    Como usuário do site, desejo adicionar itens ao carrinho\n    Para realizar minhas compras.",
+    "keyword": "Feature",
+    "name": "Adicionar itens ao carrinho",
+    "line": 1,
+    "id": "adicionar-itens-ao-carrinho",
+    "tags": [],
+    "uri": "carrinho.feature",
+    "elements": [
+      {
+        "id": "adicionar-itens-ao-carrinho;adicionar-itens-ao-carrinho-com-sucesso",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Adicionar itens ao carrinho com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que o usuário esteja na pagina de shop",
+            "result": {
+              "status": "passed",
+              "duration": 46237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "selecionar um item",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o item e adicionado ao carrinho com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 5427000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    Como usuário do site, desejo realizar o login\n    Para acessar o sistema.",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;realizar-login-com-sucesso",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Realizar login com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que o usuário esteja na home",
+            "result": {
+              "status": "passed",
+              "duration": 55368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "informo um email valido",
+            "result": {
+              "status": "passed",
+              "duration": 4073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "submeto o login",
+            "result": {
+              "status": "passed",
+              "duration": 366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "o usuario e logado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
