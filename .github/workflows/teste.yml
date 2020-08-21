@@ -12,8 +12,24 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2.1.1
+      with:
+        node-version: ${{ matrix.node-version}}        
+        
+    # Para instalar as dependências do package.json    
+    - run: npm install
+      
+    # Executar os testes usando o cucumber
+    - run: npm run test:run:cucumber
+    
+    # Gerar o relatório em html
+    - run: npm run report:cucumber
+    
+    # Publicar relatório em html
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.5.9
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: master    
+        FOLDER: cypress/reports 
