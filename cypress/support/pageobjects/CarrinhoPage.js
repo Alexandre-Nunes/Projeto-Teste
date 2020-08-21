@@ -1,21 +1,21 @@
 /// <reference types="cypress"/>
 
-const el = require('../elements/LoginElements').ELEMENTS;
+const el = require('../elements/CarrinhoElements').ELEMENTS;
 
 class ShopPage {
     validarShop(){
-      cy.visit('/Register.html');
-      cy.contains('Practice Site').click()
-      cy.get('#menu-item-40').click()
+      cy.visit(el.visitShop);
+      cy.contains(el.abaPractice).click()
+      cy.get(el.item40).click()
     }
   
     selecionarItem(){
-      cy.get('.post-180 > .button').click()
+      cy.get(el.selecionarItem).click()
     }
 
     validarItemCarrinho(){
       cy.reload()
-      cy.get('.cartcontents').should('contain', '1 item')
+      cy.get('.cartcontents').should('contain', el.validarCarrinho)
         
     }
   

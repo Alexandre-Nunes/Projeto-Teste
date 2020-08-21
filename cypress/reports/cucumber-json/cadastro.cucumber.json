@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Como usuário do site, desejo realizar um Cadastro\n    Para que possa acessar o sistema.",
+    "keyword": "Feature",
+    "name": "Cadastro de Usuário",
+    "line": 1,
+    "id": "cadastro-de-usuário",
+    "tags": [],
+    "uri": "cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro-de-usuário;cadastro-de-novo-usuário-com-sucesso",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cadastro de novo usuário com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que o usuário esteja na pagina de Register",
+            "result": {
+              "status": "passed",
+              "duration": 12710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "informo os dados do usuario",
+            "result": {
+              "status": "passed",
+              "duration": 4875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "submeto o cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "o usuario e cadastrado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 12238000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

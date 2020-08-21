@@ -6,20 +6,19 @@ let chance = new Chance();
 
 class LoginPage {
     validarHome(){
-      cy.visit('/Index.html');
+      cy.visit(el.visitHome);
     }
   
     informarEmail(){
-      cy.get('#email').type(chance.email());
-      cy.get('#enterimg').click()
+      cy.get(el.inputEmail).type(chance.email());
     }
 
     acessarLogin(){
-      cy.get('button[id="submitbtn"]').click();
+      cy.get(el.botaoEntrar).click()
     }
 
     validarLoginSucesso(){
-      cy.url().should('eq', 'http://demo.automationtesting.in/Register.html')
+      cy.url().should('eq', el.validaSucesso)
         
     }
   
