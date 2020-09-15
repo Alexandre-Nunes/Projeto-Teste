@@ -23,7 +23,7 @@
             "name": "que o usuário esteja na home",
             "result": {
               "status": "passed",
-              "duration": 54871000000
+              "duration": 75446000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "informo um email valido",
             "result": {
               "status": "passed",
-              "duration": 383000000
+              "duration": 512000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "submeto o login",
             "result": {
               "status": "passed",
-              "duration": 3677000000
+              "duration": 8499000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "o usuario e logado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 50000000
             }
           }
         ]

@@ -23,7 +23,7 @@
             "name": "que o usuário esteja na pagina de Register",
             "result": {
               "status": "passed",
-              "duration": 12710000000
+              "duration": 17581000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "informo os dados do usuario",
             "result": {
               "status": "passed",
-              "duration": 4875000000
+              "duration": 5805000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "submeto o cadastro",
             "result": {
               "status": "passed",
-              "duration": 178000000
+              "duration": 442000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "o usuario e cadastrado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 12238000000
+              "duration": 16779000000
             }
           }
         ]

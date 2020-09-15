@@ -23,7 +23,7 @@
             "name": "que o usuário esteja na pagina de shop",
             "result": {
               "status": "passed",
-              "duration": 48695000000
+              "duration": 65391000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "selecionar um item",
             "result": {
               "status": "passed",
-              "duration": 309000000
+              "duration": 394000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "o item e adicionado ao carrinho com sucesso",
             "result": {
               "status": "passed",
-              "duration": 4259000000
+              "duration": 8386000000
             }
           }
         ]
