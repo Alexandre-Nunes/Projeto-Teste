@@ -4,7 +4,6 @@
   "description": "Testes automatizados com Cypress, BDD, Page Objects",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress open",
     "test:open:cucumber": "npx cypress open --config-file cypress-cucumber.json",
     "test:run:cucumber": "npx cypress run --config-file cypress-cucumber.json --spec **/All.features ",
     "report:clean": "rm -rf mochawesome-report full_report.json cypress/reports/cucumber-json/**",
