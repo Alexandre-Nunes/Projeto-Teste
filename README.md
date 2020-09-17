@@ -3,7 +3,7 @@
 
 
 ## Para rodar o projeto localmente:
-**<p> 1.Clonar o projeto com:** git clone</p>
+**<p> 1.Clonar o projeto com:** git clone git@github.com:Alexandre-Nunes/Projeto-Teste.git</p>
 **<p> 2.Instalar as dependências com:** npm i</p>
 **<p> 3.Para rodar o teste e visualizar no browser:** npm run test:open:cucumber</p>
 **<p> 4.Para rodar o teste modo headless:** npm run test:run:cucumber</p>
