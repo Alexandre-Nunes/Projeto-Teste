@@ -1,5 +1,5 @@
 # Projeto-Teste
-**<p>Automação de testes com Cypress, BDD, Cucumber, Page Objects, Relatório, e Integração Continua com GitHub Actions.**</p>
+**<p>Automação de testes com Cypress, BDD, Cucumber, Page Objects, Relatório de testes, e Integração Continua com GitHub Actions.**</p>
 
 
 ## Para rodar o projeto localmente:
